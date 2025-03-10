@@ -1,24 +1,24 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Arial';
+    /* font-family: 'Arial'; */
 }
 
-body {
+/* body {
     font-family: roboto;
-}
+} */
 
 header {
     display: flex;
     flex-direction: column;
-    /* height: 10vh; */
+    height: 10vh;
     width: 100%;
-}
+} 
 
 h1 {
     color: black;
     margin-bottom: 0px;
-}
+} 
 
 /* Formato estandar para hacer imagen responsiva */
  img {
@@ -50,6 +50,7 @@ h1 {
     background-color: white;
     align-items: center;
     border:solid 2px #e8ebe4;
+  
 }
 
 .justify-content-center {
@@ -102,7 +103,7 @@ h2 {
 
 h3 {
     font-size: 20px;
-    color: black;
+    color: gray;
 }
 
 h4 {
