@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial';
+}
+
+body {
+    font-family: roboto;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    /* height: 10vh; */
+    width: 100%;
+}
+
+h1 {
+    color: black;
+    margin-bottom: 0px;
+}
+
+/* Formato estandar para hacer imagen responsiva */
+ img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    
+    border-radius: 50%;
+    width: 400px;
+    height: 150px;
+} 
+
+.img.main {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    
+    border-radius: 50%;
+    width: 400px;
+    height: 370px;
+ 
+} 
+
+.boxes {
+    min-height: 50vh;
+    display: flex;
+    flex-direction: row;
+    /* gap: 16px;     */
+    background-color: white;
+    align-items: center;
+    border:solid 2px #e8ebe4;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.columna {
+    flex: 0 0 50%;
+    max-width: 50%;
+    box-sizing: border-box;
+
+}
+
+.columna.izquierda {
+    padding: 75px 50px 75px 150px;
+    /* padding: Arriba Derecha Abajo Izquierda*/
+}
+
+
+.columna.derecha {
+    padding: 45px 150px 66px 50px;
+
+}
+
+.boxes.caracteristicas {
+  
+    /* width: 60px; */
+    
+    width: 400px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.contenedor-columnas {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+
+
+.columna-3 {
+    flex: 0 0 33%;
+    max-width: 33%;
+    padding: 16px;
+    box-sizing: border-box;
+    color: white;
+}
+.columna-3 img{
+    width: 100%;
+    height: 250px;
+    display: block;
+    object-fit: cover;
+}
+
+.columna-3 i {
+    font-size: 4rem;
+    margin-bottom: 16px;
+
+}
+
+
+h2 {
+    color: black;
+    margin: 20px;
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 20px;
+    color: black;
+}
+
+p {
+    /* background-color: white; */
+    color: white;
+    font-size: 1.4rem;
+    letter-spacing: 0.5;
+    margin-bottom: 1rem;
+    /* 1rem = 16px */
+    text-align: left;
+
+}
+
+.text-center {
+    text-align: center;
+}
+
+.boton-color{
+
+    background-color: #A491D2;
+    color: white;
+    width: 60%;
+    height: 50px;
+    font-size: 20px;
+    border-color: #A491D2;
+
+}

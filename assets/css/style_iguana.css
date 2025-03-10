@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial';
+}
+
+/* nav {
+background-color: antiquewhite;
+padding: 4px;
+display: flexbox; */
+
+/* } */
+
+header {
+    display: flex;
+    flex-direction: column;
+    /* height: 10vh; */
+    width: 100%;
+}
+
+h1 {
+    color: white;
+    margin-bottom: 0px;
+}
+
+h1#titulo_iguana {
+    background-color: black;
+    width: auto;
+    height: 75px;
+    font-size: 50px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Formato estandar para hacer imagen responsiva */
+ img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+} 
+
+.boxes {
+    min-height: 50vh;
+    display: flex;
+    flex-direction: row;
+    /* gap: 16px;     */
+    background-color: black;
+    align-items: center;
+
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.columna {
+    flex: 0 0 50%;
+    max-width: 50%;
+    box-sizing: border-box;
+
+}
+
+.columna.izquierda {
+    padding: 75px 50px 75px 150px;
+    /* padding: Arriba Derecha Abajo Izquierda*/
+}
+
+.columna.derecha {
+    padding: 45px 150px 66px 50px;
+
+}
+
+.boxes.caracteristicas {
+    background-color: #1E1A13;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.contenedor-columnas {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+
+
+.columna-3 {
+    flex: 0 0 33%;
+    max-width: 33%;
+    padding: 16px;
+    box-sizing: border-box;
+    color: white;
+}
+.columna-3 img{
+    width: 100%;
+    height: 250px;
+    display: block;
+    object-fit: cover;
+}
+
+.columna-3 i {
+    font-size: 4rem;
+    margin-bottom: 16px;
+
+}
+
+
+h2 {
+    color: white;
+    margin: 20px;
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 24px;
+
+}
+
+p {
+    background-color: black;
+    color: white;
+    font-size: 1.4rem;
+    letter-spacing: 0.5;
+    margin-bottom: 1rem;
+    /* 1rem = 16px */
+    text-align: left;
+
+}
+
+
+
+
+.text-center {
+    text-align: center;
+}
+
+footer {
+    background-color: #1E1A13;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.footer a {
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+
+/* li{
+    padding: 1.2rem;
+}
+li:hover{
+    background-color: aqua;
+    color: black;
+} */
